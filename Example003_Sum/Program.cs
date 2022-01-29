@@ -1,5 +1,5 @@
-﻿int numberA =3;
-int numberB =5;
+﻿int numberA = new Random().Next(0, 101);
+int numberB = new Random().Next(0,101);
 Console.Write ("Первое число равно: ");
 Console.WriteLine (numberA);
 Console.Write ("Второе число равно: ");
